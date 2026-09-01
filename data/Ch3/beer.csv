@@ -1,100 +1,326 @@
-abv,calories
-6.5,188
-6.2,185
-6.1,174
-5.93,175
-5.9,157
-5.9,169
-5.9,156
-5.9,143
-5.9,144
-5.9,160
-5.8,210
-5.77,179
-5.6,209
-5.6,157
-5.6,157
-5.6,200
-5.6,200
-5.5,148
-5.5,149
-5.4,171
-5.3,174
-5.25,145
-5.2,160
-5.2,166
-5.2,166
-5.1,162
-5.1,163
-5.1,161
-5,130
-5,145
-5,142
-5,132
-5,160
-5,155
-5,153
-5,156
-5,145
-4.94,163
-4.94,170
-4.94,166
-4.94,160
-4.92,149
-4.9,153
-4.9,148
-4.9,163
-4.9,175
-4.9,151
-4.8,153
-4.8,153
-4.8,150
-4.75,160
-4.7,144
-4.7,144
-4.7,152
-4.7,143
-4.7,143
-4.7,146
-4.7,146
-4.69,195
-4.67,152
-4.62,145
-4.6,133
-4.6,142
-4.6,142
-4.6,149
-4.6,147
-4.5,148
-4.5,128
-4.5,98
-4.5,146
-4.5,120
-4.5,150
-4.4,108
-4.4,113
-4.4,135
-4.4,135
-4.3,99
-4.3,138
-4.3,113
-4.2,95
-4.2,110
-4.2,110
-4.2,102
-4.2,104
-4.2,110
-4.2,110
-4.2,96
-4.2,110
-4.2,135
-4.19,105
-4.14,110
-4.1,94
-4.1,110
-4.1,110
-4.1,110
-4.1,95
-3.8,114
-3.8,98
-2.5,67
+Brand,ABV,Calories
+Natural Ice,5.9,130
+King Cobra,6,134
+Molson Canadian 67,3,67
+Pig's Eye Lean Light,4.2,95
+Sleeman Clear,4,90
+Michelob Ultra,4.2,95
+Natural Light,4.2,95
+Natty Daddy,8,181
+Hurricane (Original),6,136
+Pig's Eye Ice Beer,5.9,134
+Bud Light Platinum,6,137
+Pigs Eye P.B. High Gravity Ice Malt Liquour,10.2,233
+Miller Lite,4.2,96
+Miller64,2.8,64
+MGD 64 Lemonade,2.8,64
+Bud Select 55,2.4,55
+Labatt Sterling,4,92
+Budweiser Select,4.3,99
+Busch Light,4.1,95
+NIXE Extra Dry,4.9,114
+Hurricane Ice,7.5,175
+Shiner Light Blonde,4.2,99
+Michelob Ultra Amber,4,95
+Michelob ULTRA Pomegranate Raspberry,4,95
+Alcohol Inspired Refresher (AIR),4,95
+Michelob ULTRA Lime Cactus,4,95
+Michelob ULTRA Dragonfruit Peach,4,95
+Miller Chill,4.2,100
+Milwaukee's Best Light,4.1,98
+Corona Light,4.1,99
+Greens Tripel Blonde Ale,8.5,206
+Coors Light,4.2,102
+Milwaukee's Best Ice,5.9,144
+Keystone Ice,5.9,145
+Big Flats Light Beer,3.9,96
+Bud Ice,5.5,136
+Miller Icehouse Light,4.13,103
+Keystone Premium,4.43,111
+Duvel,8.5,213
+Keystone Light,4.13,104
+Chimay Triple,8,202
+Leinenkugel's Light,4.2,109
+Beck's Octoberfest,5.2,135
+Bud Dry,5,130
+Hurricane High Gravity,8.1,212
+Bud Light,4.2,110
+Miller Genuine Draft Light,4.2,110
+Schlitz Light,4.2,110
+Kronenbourg 1664,5.5,146
+Busch,4.3,114
+Chimay Rouge,7,186
+Steel Six,6,160
+Miller High Life Light,4.1,110
+Olde English 800 7.5,7.5,202
+Grolsch Light Lager,3.6,97
+Miller Fortune,6.9,186
+Pabst Blue Ribbon Light,4.19,113
+Labatt Blue,5,135
+Labatt Blue Light,4,108
+Belle-Vue Selection Lambic,6,162
+Becks Sapphire,6,162
+Mickey's Ice,5.8,157
+Icehouse,5.5,149
+Olde English 800,5.9,160
+Amstel Light,3.5,95
+Tyskie,5.6,153
+Steel Reserve High Gravity,8.1,222
+Olde English High Gravity 800,8,220
+AleSmith Speedway Stout,12,330
+Budweiser Black Crown,6,165
+Becks Pilsner,5,138
+Bud Light Lime,4.2,116
+Carling Chrome,4.8,133
+Coronado Golden - Coronado Brewing Co.,5.4,150
+Beck's Premier Light,2.3,64
+Strongbow Cider (USA variant),5,140
+Magnum Malt Liquor,5.6,157
+Mickey's Fine Malt Liquor,5.6,157
+Cascade Lager,4.8,135
+AleSmith Old Numbskull,11,310
+Colt 45 Malt Liquor,6.1,172
+Hamm's Special Light,3.9,110
+Tequiza,4.5,127
+Heineken Light,3.5,99
+Yuengling Light Lager,3.5,99
+Trippel Belgian Style Ale,7.8,221
+Coronado Idiot IPA,8.5,241
+Beck's Dark,5,142
+James Boags Premium,5,142
+Smithwicks Draught,4.5,128
+Swan Draught,4.5,128
+Boags Draught,4.6,131
+XXXX Bitter,4.6,131
+Sapporo Premium,4.9,140
+AleSmith X,5.25,150
+Kona Wailua Wheat Ale,5.4,155
+Alaskan IPA,6.2,178
+Beez Neez (Matilda Bay),4.7,135
+Boags XXX Ale,4.8,138
+Bud Light Golden Wheat,4.1,118
+Krombacher Pils,4.8,138
+Alaskan Pale,5.2,150
+Krombacher Dark,4.3,124
+Red Hook IPA,6.5,188
+Guinness Generous Ale,5.6,162
+AleSmith IPA,7.25,210
+Valima Lager,4.9,142
+Crown Lager,4.9,142
+Busch Ice,5.9,171
+Budweiser,5,145
+Foster's,5,145
+Molson XXX,7.3,201
+Fosters Premium Ale,5.5,160
+West End Draught,4.5,131
+Guinness Black Lager,4.5,131
+Abbots Lager,4.5,131
+Leffe Tripel,8.5,248
+Hahn Premium,5,146
+Steinlager Classic,5,146
+Coronado Brewing Orange Ave Wit,5.2,152
+Carling,4,117
+Tennents Lager,4,117
+Rolling Rock Extra Pale,4.5,132
+Tooheys New,4.6,135
+Victoria Bitter,4.6,135
+Ballarat Bitter,4.6,135
+Grolsch Premium Lager,5,147
+Peroni Nastro Azzurro,5.1,150
+Stella Artois,5.2,153
+Alexander Keiths Pale Ale,5.4,159
+Newcastle Brown Ale,4.7,138
+Carlsberg Elephant,7.2,213
+Molson Canadian,5,148
+Samuel Adams Pale Ale,5.4,160
+Grolsch Amber Ale,5.4,160
+Kirin Light,3.2,95
+Yuengling Premium Light,3.3,98
+Sam Adams Light,4,119
+Michelob Light,4.1,123
+Milwaukee's Best Premium,4.3,128
+Tooheys Old,4.4,131
+Coors Banquet,5,149
+Konig Radler,2.5,75
+Michelob AmberBock,5.1,155
+Blue Moon Rising Moon Spring Ale,5.4,161
+Schlitz Malt Liquor,6.2,185
+Kirin Ichiban,4.9,147
+Old Milwaukee Light,3.8,114
+Heineken,5,150
+Harbin Lager,4.8,144
+Shiner Light,4,120
+Southwark Bitter,4.5,135
+Michelob Ultra Light Cider,4,120
+Bohemia Clasica,5.3,159
+Kona Big Wave Golden Ale,4.4,132
+Cristal,4.6,138
+Krombacher Weizen,5.3,160
+Molson Ice,5.6,169
+Blue Moon Honey Moon Summer Ale,5.2,157
+Sierra Nevada Hoptimum,10.4,314
+Molson Golden,5,151
+St. Pauli Girl - Lager,4.9,148
+New Belgium Sunshine Wheat,4.8,145
+Blue Paddle Pilsner Lager,4.8,145
+Tennents Original Export Lager,4.7,142
+Licher Pilsner Leicht,2.8,85
+Dunkelweisse,5.5,167
+Paulaner Hefe-Weizen,5.5,167
+Blue Moon Belgian White,5.4,164
+Pabst Blue Ribbon,4.74,144
+Coors Extra Gold Lager,5,152
+Carlsberg Export,5,152
+Guinness Blonde American Lager,5,152
+Leinenkugel's Honey Weiss,4.9,149
+Asahi Super Dry,4.9,149
+Paulaner Munich Premium Lager,4.9,149
+Konig Pilsener,4.9,149
+Guinness Draught,4.2,128
+Tusker Lager,4.2,128
+Sapporo Premium Light,3.9,119
+Paulaner Oktoberfest Marzen,5.8,177
+Bass,5.1,156
+Red Dog,4.8,147
+Hamm's,4.7,144
+Lowenbrau Special Beer,5.2,160
+Fat Tire,5.2,160
+Molson Canadian Light,3.9,120
+Spaten Lager,5.2,160
+Dos Equis Lager,4.6,142
+Henry Weinhard's Hefeweizen,4.9,151
+Yuengling Lager,4.6,142
+Yuengling Premium,4.6,142
+Leinenkugel's Summer Shandy,4.2,130
+Kona Fire Rock Pale Ale,6,186
+Red Hook ESB,5.77,179
+Murphys Irish Stout,4,124
+Schlitz Beer,4.7,146
+Miller Genuine Draft,4.6,143
+Miller High Life,4.6,143
+George Killian's Irish Red,5.4,162
+Alexander Keiths Lager,5.4,168
+Shock Top Pumpkin,5.2,162
+Pyramid Outburst IPA,8.5,265
+Anchor Steam,4.9,153
+Sierra Nevada Pale Ale,5.6,175
+Blue Moon Harvest Moon Pumpkin Ale,5.76,180
+Henry Weinhard's Private Reserve,4.8,150
+Batch 19,5.5,172
+Kona Longboard Island Lager,4.6,144
+Strohs,4.52,142
+Greens Premium Pils,4.8,151
+Sierra Nevada Celebration Ale,6.8,214
+Negra Modelo,5.4,170
+Henry Weinhard's India Pale Ale,6,189
+Asahi Black,5.3,167
+Henry Weinhard's Blonde,5.1,161
+Sierra Nevada Summerfest Beer,5,158
+Henry Weinhard's Belgian Style Wheat,4.9,155
+Leinenkugel's Fireside Nut Brown,4.9,155
+Skol,4.7,149
+James Boags Premium Light,2.9,92
+Red Bridge Beer,4,127
+Warsteiner Premium Verum,4.8,153
+Shiner Blonde,4.4,140
+Dos Equis Amber,4.6,146
+Henry Weinhard's Blue Boar,4.6,147
+Lowenbrau Dark,5,160
+New Planet 3R Raspberry Ale,5,160
+Shock Top Belgian White,5.2,167
+Red Stripe,4.7,151
+Pyramid Hefeweizen,5.2,168
+Corona Extra,4.6,148
+Boddingtons Pub Ale,4.6,148
+Shiner Hefeweizen,5.4,174
+Shiner Bock,4.4,142
+Leinenkugel's Original Lager,4.7,152
+Pyramid ThunderHead IPA,6.7,217
+Old Milwaukee Beer,4.5,146
+Hoegaarden White,4.9,159
+Tecate,4.25,138
+Greens Premium Golden Ale,4.8,156
+Warsteiner Premium Dunkel,4.8,156
+Harp Lager,4.7,153
+Blue Moon Full Moon Winter Ale,5.52,180
+Imperial,4.6,150
+Landshark Lager,4.6,150
+Tsingtao,4.8,157
+AleSmith Anvil ESB,5.5,180
+Pyramid Apricot Ale,5.1,167
+Goose Island Ten Hills Pale Ale,6.2,203
+Sparks Lemonade,8,262
+Samuel Adams Boston Ale,5.4,177
+Sierra Nevada Torpedo,7.2,236
+Henry Weinhard's Classic Dark Lager,5,164
+Pete's Wicked Ale,5.3,174
+Tennents Special,3.5,115
+Big Flats Lager Beer,4.5,148
+Michelob,4.8,158
+Yuengling Black & Tan,4.8,158
+Modelo Especial,4.4,145
+Pacifico,4.4,145
+Alexander Keiths Brown Ale,5.4,178
+Sheaf Stout,5.7,188
+Redds Apple Ale,5,165
+Alaskan Amber,5.3,175
+Samuel Adams Cherry Wheat,5.3,176
+Leinenkugel's Oktoberfest Lager,5.1,170
+Victoria,4.04,135
+Crown Gold,3.5,117
+Leinenkugel's BIG BUTT Dopplebock,5.8,194
+Kona Koko Nut Brown Ale,5.5,184
+Leinenkugel's Sunset Wheat,4.9,165
+Bards Original Sorghum Malt Beer,4.6,155
+Yuengling Porter,4.8,162
+Aguila,3.9,132
+Leinenkugel's Red Lager,4.9,166
+Goose Island Oktoberfest,6.4,217
+Samuel Adams Double Bock,9.5,323
+New Planet Off Grid Pale Ale,5,170
+Bitburger Light,2.8,96
+Bud American Ale,5.3,182
+Third Shift Amber Lager,5.3,182
+Sierra Nevada Bigfoot,9.6,330
+Shock Top Rasberry Wheat,5.2,179
+Red Stripe Light,3.6,124
+Samuel Adams Winter Lager,5.6,193
+Samuel Adams Noble Pils,4.9,169
+Leinenkugel's Creamy Dark,4.9,170
+Sparks Iced Tea,8,278
+Karl Strauss - Red Trolley Ale,5.8,202
+Dogfish Head 60min IPA,6,209
+Kona Pipeline Porter,5.3,185
+Emu Draft,3,106
+1554,5.6,198
+Frederick Miller Classic Chocolate Lager,5.5,195
+Emu Bitter,4,142
+Michelob Honey Lager,4.9,174
+Yuengling Chesterfield Ale,5.2,185
+Samuel Adams Boston Lager,4.9,175
+Goose Island India Pale Ale,5.9,211
+New Planet Tread Lightly Ale,5,179
+Sparks Blackberry,8,287
+Michelob Ultra 19th Hole Light Tea & Lemonade,3.9,140
+Pilsner Urquell,4.4,156
+Chelada Bud Light,4.2,151
+Goose Island Honkers Ale,4.3,155
+Mike's Lite Hard Lemonade,3.2,117
+Goose Island Nut Brown Ale,5.4,198
+Hahn Premium Light,2.6,96
+Cascade Premium Light,2.6,96
+Magners Golden Draught,4.5,167
+Chelada Budweiser,5,186
+Anchor Porter,5.6,209
+Karl Strauss - Amber Lager,4.2,161
+Samuel Adams Cream Stout,4.9,190
+Samuel Adams Chocolate Bock,5.8,230
+Grolsch Blonde Lager,2.8,120
+Leinenkugel's Berry Weiss,4.7,207
+Tennents Sweetheart Stout,2,122
+Coors Non-Alcoholic,0.5,58
+Sharp's,0.4,58
+Busch NA,0.4,60
+O'Doul's,0.4,65
+ODouls Amber,0.4,90
+Kirin Free,0,39
